@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800;900&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.brand-highlight{
+    color: #16c0f0;
+}
+.navbar-brand{
+    color: white!important;
+}
+.banner-section{
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.overlay {
+    background-color: #0000008c;
+    width: 100%;
+    min-height: 100vh;
+}
+.display-table{
+    display: table;
+    width: 100%;
+}
+.intro {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100vh;
+    min-height: 100%;
+}
+.intro p {
+    color: #c3c0c0;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.intro h1 {
+    color: white;
+    font-size: 79px;
+    font-weight: 800;
+    letter-spacing: 7px;
+    margin: 0;
+    line-height: inherit;
+    text-transform: capitalize;
+}
+.intro a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #16c0f0;
+    padding: 15px 37px;
+    border-radius: 20px;
+    line-height: 133px;
+}
+.custom-nav {
+    background-color: rgba(0,0,0,0.5)!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}
+.custom-item{
+    
+}
+.custom-item .nav-item a{
+    color: white!important;
+}
