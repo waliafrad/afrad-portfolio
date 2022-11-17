@@ -9,8 +9,9 @@ body{
 .navbar-brand{
     color: white!important;
 }
+
 .banner-section{
-    background-image: url(../images/home.jpg);
+    background-image: url(../images/homeme.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -69,12 +70,17 @@ body{
     z-index: 999;
     width: 100%;
 }
-.custom-item{
-    
+.custom-item > li > a.active{
+    color:#23849e!important ;
 }
+.custom-item .nav-item .nav-link:hover{
+    color:#23849e!important;
+}
+
 .custom-item .nav-item a{
     color: white!important;
 }
+
 /* about me section css */
 .about-me {
     background-color: #323232;
